@@ -100,10 +100,12 @@ foreach my $number (@array) {
 
 foreach my $month_abbrev (keys %$scalar_hash) {
     print("${month_abbrev}\n");
+    # One way to get value from hash reference
     my $month_data = $scalar_hash->{$month_abbrev};
 
     foreach my $key (keys %$month_data) {
-        my $value = $month_data->{$key};
+        # Another way to get value from hash reference
+        my $value = %$month_data{$key};
         print("  $key: $value\n");
     }
 }
