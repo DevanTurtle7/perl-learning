@@ -1,0 +1,5 @@
+perldoc -q [func]: Answers frequently asked questions about functions and gives examples.
+perldoc -f [func]: Documentation for a built-in perl function
+perldoc -v [var]: Documentation on a built-in perl variable
+perldoc -m [func]: Shows the source code for a perl module
+perldoc perlfunc: A list of all perl built-in functions
